@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+h1{
+    color: #E53170;
+    text-transform: capitalize;
+    text-align: center;
+    margin-block: 20px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
+
+.profile-pic{
+    background-image: url(../img/male1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    border: 1px solid yellow;
+}
+
+.card-left{
+    width: calc(100% / 3 - 30px);
+    height: 100px;
+    background-color: #0F0E17;
+    border: 1px solid red;
+    float: left;
+    margin-right: 45px;
+}
+
+.card-right{
+    width: calc(100% / 3 - 30px);
+    height: 100px;
+    background-color: #0F0E17;
+    border: 1px solid red;
+    float: right;
+}
+

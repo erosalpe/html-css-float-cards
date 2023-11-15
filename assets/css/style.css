@@ -50,6 +50,7 @@ h1, p{
     height: 100px;
     background-color: #0F0E17;
     margin-bottom: 45px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .card-left, .info, .profile-picture > img{

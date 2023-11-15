@@ -17,7 +17,6 @@ html{
 h1{
     color: #E53170;
     text-transform: capitalize;
-    text-align: center;
     margin-block: 20px;
 }
 
@@ -27,34 +26,37 @@ main{
 }
 
 p{
-    text-align: center;
     margin-bottom: 50px;
+}
+
+h1, p{
+    text-align: center;
 }
 
 .profile-picture > img{
     height: 100px;
-    float: left;
 }
 
 .card-left{
-    width: calc(100% / 3 - 30px);
-    height: 100px;
-    background-color: #0F0E17;
-    float: left;
     margin-right: 45px;
-    margin-bottom: 45px;
 }
 
 .card-right{
+    float: right;
+}
+
+.card-left, .card-right{
     width: calc(100% / 3 - 30px);
     height: 100px;
     background-color: #0F0E17;
-    float: right;
     margin-bottom: 45px;
 }
 
-.info{
+.card-left, .info, .profile-picture > img{
     float: left;
+}
+
+.info{
     color: white;
     margin: 10px;
     line-height: 150%;

@@ -33,15 +33,6 @@ p{
     border: 1px solid red;
 }
 
-.profile-pic{
-    background-image: url(../img/male1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-    height: 100%;
-    border: 1px solid yellow;
-}
-
 .card-left{
     width: calc(100% / 3 - 30px);
     height: 100px;
@@ -57,5 +48,9 @@ p{
     background-color: #0F0E17;
     border: 1px solid red;
     float: right;
+}
+
+.profile-picture > img{
+    height: 100px;
 }
 

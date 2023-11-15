@@ -42,6 +42,7 @@ p{
     background-color: #0F0E17;
     float: left;
     margin-right: 45px;
+    margin-bottom: 45px;
 }
 
 .card-right{
@@ -49,6 +50,7 @@ p{
     height: 100px;
     background-color: #0F0E17;
     float: right;
+    margin-bottom: 45px;
 }
 
 .info{
@@ -56,4 +58,17 @@ p{
     color: white;
     margin: 10px;
     line-height: 150%;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.job{
+    font-size: 14px;
+}
+
+address{
+    color: #2AB6E8;
 }
